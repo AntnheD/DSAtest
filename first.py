@@ -18,7 +18,7 @@ def reverse_linked_list(head):
 
     return prev
 
-# Helper function to print the linked list
+
 
 def print_linked_list(head):
     current = head
@@ -27,9 +27,9 @@ def print_linked_list(head):
         current = current.next
     print("None")
 
-# Example usage
+
 if __name__ == "__main__":
-    # Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
+   
     head = Node(1)
     head.next = Node(2)
     head.next.next = Node(3)
